@@ -4,6 +4,10 @@
         margin: 0 auto;
         flex-direction: column;
     }
+    
+    body{
+        width: 100%;
+    }
 
     .nav-bar{
         width: 25rem;
@@ -99,11 +103,28 @@
     .run-photo img{
         width: 18rem;
         height: 10.625rem;
+        object-fit: cover;
     }
 
     .training{
         width: 22rem;
         height: 10.125rem;
-        padding-left: 0;
+        padding-left: 1rem;
     }
+
+    .training-title{
+        font-size: 2rem;
+    }
+
+    .BMI-content{
+        width: 22rem;
+        height: 7.75rem;
+        padding-left: 3rem;
+    }
+
+    .BMI-title{
+        font-size: 2rem;
+    }
+
+
 }

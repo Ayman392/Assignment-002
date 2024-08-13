@@ -327,3 +327,29 @@ main{
     grid-template-rows: repeat(2,1fr);
 }
 
+/* BMI styles */
+
+.BMI{
+    max-width: 90rem;
+    margin: 0 auto;
+    margin-bottom: 5.5rem;
+}
+
+.BMI-content{
+    width: 42rem;
+    height: 7.5rem;
+    padding-left: 30rem;
+}
+
+.BMI-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1) ;
+    padding-bottom: 1rem;
+}
+
+.BMI-desc{
+    font-size: 0.75rem;
+    font-weight:400;
+    color: rgba(255, 255, 255, 0.5);
+}
