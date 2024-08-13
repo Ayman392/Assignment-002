@@ -99,7 +99,11 @@
     .run-photo img{
         width: 18rem;
         height: 10.625rem;
-        object-fit: fill;
-        background-size: contain;
+    }
+
+    .training{
+        width: 22rem;
+        height: 10.125rem;
+        padding-left: 0;
     }
 }

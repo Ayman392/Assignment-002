@@ -212,8 +212,6 @@ main{
 }
 
 .habit-content{
-    width: 41.875;
-    height: 7.5rem;
     text-align: center;
     padding-bottom: 3.625rem;
 }
@@ -288,8 +286,44 @@ main{
 }
 
 .run-photo img{
-    width: 20rem;
-    height: 19.5rem;
+    width: 24rem;
+    height: 22rem;
     border-radius: 1.125rem;
     margin: 1rem 1.5rem;
+    object-fit: none;
+    object-position: 67% 34%;
 }
+
+/* Training styles */
+
+.training{
+    max-width: 90rem;
+    margin: 0 auto;
+    margin-bottom: 5.5rem;
+    padding-left: 10rem;
+}
+
+.training-content{
+    margin-bottom: 3.625rem;
+    
+}
+
+.training-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 1rem;
+}
+
+.training-desc{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.training-method{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
