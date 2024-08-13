@@ -126,5 +126,34 @@
         font-size: 2rem;
     }
 
+    .calc{
+        flex-direction: column;
+        padding-left: 3rem;
+    }
 
+    .chart-title,.calc-title{
+        font-size: 1rem;
+    }
+
+    .calculate-BMI{
+        width: 22.125rem;
+        height: 24.75rem;
+    }
+
+    .form-item{
+        width: 9rem;
+        margin: 0.75rem 0;
+    }
+
+    .gender{
+        width: 11rem;
+    }
+
+    .factor{
+        width: 22rem;
+    }
+
+    .calc-btn{
+        padding: 1rem 4.375rem;
+    }
 }
