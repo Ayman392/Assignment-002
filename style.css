@@ -159,11 +159,10 @@ main{
 .workout-video{
     position: relative;
     top: 9rem;
-    left: 12rem;
+    left: 11rem;
 }
 
 .workout-video h1{
-
     font-size: 2.25rem;
     color: rgba(255, 255, 255, 1);
     font-weight: 900;
@@ -521,6 +520,64 @@ td{
 
 .trainer-desc{
     font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 4.25rem 0;
+}
+
+.footer-title{
+    width: 27.75rem;
+}
+
+.footer-head{
+    font-size: 4.5rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+    padding-bottom: 1.25rem;
+}
+
+.footer-desc{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    width: 35.125rem;
+    justify-content: space-between;
+}
+
+.contact-title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 2.5rem;
+}
+
+.contact-desc{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 1.25rem;
+}
+
+.footer-end{
+    padding: 2.25rem;
+    text-align: center;
+    font-size: 1.25rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
