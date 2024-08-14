@@ -229,12 +229,13 @@ main{
 }
 
 .card{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card-content{
     text-align: center;
-    
+    width: 14.5rem;
+    height: 17.125rem;
 }
 
 .card-content img{
@@ -258,7 +259,7 @@ main{
 
 .run{
     justify-content: space-between;
-    max-width: 80rem;
+    max-width: 90rem;
     margin: 0 auto;
     background-color: rgba(34, 34, 34, 1);
     margin-bottom: 6.25rem;
@@ -300,7 +301,6 @@ main{
     max-width: 90rem;
     margin: 0 auto;
     margin-bottom: 5.5rem;
-    padding-left: 10rem;
 }
 
 .training-content{
@@ -332,13 +332,14 @@ main{
 .BMI{
     max-width: 90rem;
     margin: 0 auto;
+    display: grid;
+    justify-content: center;
     margin-bottom: 5.5rem;
 }
 
 .BMI-content{
     width: 42rem;
     height: 7.5rem;
-    padding-left: 30rem;
 }
 
 .BMI-title{
@@ -365,7 +366,6 @@ main{
     justify-content: space-between;
     max-width: 90rem;
     margin: 0 auto;
-    padding-left: 10rem;
     padding-bottom: 3rem;
 }
 
@@ -433,4 +433,94 @@ td{
     margin-right: 0.75rem;
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
+}
+
+/* Team styles */
+
+.team-information{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding-bottom: 5.5rem;
+}
+
+.team-content{
+    text-align: center;
+    padding-top: 5.5rem;
+    padding-bottom: 3.25rem;
+}
+
+.team-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+
+.team-desc{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.trainer{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1.125rem;
+}
+
+.trainer-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border-radius: 1.125rem;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    height: 46.75rem;
+}
+
+.trainer-1 {
+    background-image: linear-gradient(180deg,transparent, rgba(0, 0, 0, 0.575)) , url(images/trainer1.png);
+    
+}
+
+.trainer-2 {
+    background-image:linear-gradient(180deg,transparent, rgba(0, 0, 0, 0.575)) ,url(images/trainer2.png);
+
+}
+.trainer-3 {
+    background-image:linear-gradient(180deg,transparent, rgba(0, 0, 0, 0.575)) , url(images/trainer3.png);
+}
+
+.trainer-4 {
+    background-image:linear-gradient(180deg,transparent, rgba(0, 0, 0, 0.575)) , url(images/trainer4.png);
+}
+
+
+.trainer-5 {
+    background-image:linear-gradient(180deg,transparent, rgba(0, 0, 0, 0.575)) , url(images/trainer5.png);
+}
+
+.trainer-6 {
+    background-image:linear-gradient(180deg,transparent, rgba(0, 0, 0, 0.575)) , url(images/trainer6.png);
+}
+
+.img{
+    background-size: cover;
+    border-radius: 1.125rem;
+}
+
+.trainer-info{
+    position: relative;
+    top: 18.5rem;
+    padding-left: 1rem;
+}
+
+.trainer-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.trainer-desc{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
 }
