@@ -5,7 +5,6 @@
 .font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
@@ -320,10 +319,90 @@ main{
     color: rgba(255, 255, 255, 0.5);
 }
 
-.training-method{
+.training-1{
     display: grid;
-    grid-template-columns: repeat(3,3fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 1.1fr 2.31fr 1.29fr;
+}
+
+.training-2{
+    display: grid;
+    grid-template-columns: 1.89fr 1.28fr 1.542fr;
+}
+
+.exercise-desc{
+    height: 14.5rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    padding-bottom: 1.75rem;
+}
+
+.exer-1{
+    position: relative;
+    top: 13rem;
+    width: 11rem;
+    left: 1.5rem;
+}
+
+.exer-2{
+    position: relative;
+    top: 1.5rem;
+    width: 17rem;
+    left: 1.85rem;
+}
+.exer-3{
+    position: relative;
+    top: 12rem;
+    width: 11rem;
+    left: 1.5rem;
+}
+.exer-4{
+    position: relative;
+    top: 1.5rem;
+    width: 11rem;
+    left: 23rem;
+}
+.exer-5{
+    position: relative;
+    top: 12rem;
+    width: 11rem;
+    left: 1.5rem;
+}
+.exer-6{
+    position: relative;
+    top: 12rem;
+    width: 11rem;
+    left: 1.5rem;
+}
+
+.exercise-1{
+    background-image: radial-gradient(transparent,rgba(6, 255, 210, 0.5)), url(images/exercise1.jpg);
+}
+
+.exercise-2{
+    background-image: radial-gradient(transparent,rgba(255, 0, 0, 0.3)), url(images/exercise2.png);
+}
+
+.exercise-3{
+    background-image: radial-gradient(transparent,rgba(0, 0, 0, 0.5)) ,url(images/exercise3.png);
+}
+
+.exercise-4{
+    background-image: radial-gradient(transparent,rgba(0, 0, 0, 0.5)), url(images/exercise4.png);
+}
+
+.exercise-5{
+    background-image: radial-gradient(transparent,rgba(66, 255, 0, 0.3)) ,url(images/exercise5.jpg);
+}
+
+.exercise-6{
+    background-image: radial-gradient(transparent,rgba(0, 71, 255, 0.3)),url(images/exercise6.jpg);
+}
+
+.ex-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 /* BMI styles */

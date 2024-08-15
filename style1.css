@@ -110,18 +110,50 @@
 
     .training{
         width: 22rem;
-        height: 10.125rem;
-        padding-left: 1rem;
+        height: 42rem;
     }
 
+    
     .training-title{
         font-size: 2rem;
+    }
+
+
+    .training-1,.training-2{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .exercise-3,.exercise-6{
+        display: none;
+    }
+
+    .exer-1{
+        width: 9rem;
+        top: 11rem;
+    }
+
+    .exer-2{
+        width: 8rem;
+    }
+
+    .exer-4{
+        width: 9rem;
+        top: 11rem;
+        left: 1rem;
+    }
+
+    .exer-5{
+        top: 11rem;
+        width: 9rem;
+    }
+
+    .BMI{
+        margin-bottom: 0;
     }
 
     .BMI-content{
         width: 22rem;
         height: 7.75rem;
-        padding-left: 3rem;
     }
 
     .BMI-title{
@@ -157,6 +189,10 @@
 
     .calc-btn{
         padding: 1rem 4.375rem;
+    }
+
+    .team-content{
+        padding-top: 2.5rem;
     }
 
     .team-information{
